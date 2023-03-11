@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import './gallery.css'
+import './gallery.scss'
 import image1 from './images/gallery1.png'
 import image2 from './images/gallery2.png'
 import image3 from './images/gallery3.png'
