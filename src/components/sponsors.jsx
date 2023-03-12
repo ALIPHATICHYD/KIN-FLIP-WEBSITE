@@ -1,5 +1,5 @@
 import React from "react";
-import "./sponsors.css";
+import "./sponsors.scss";
 import Dior from './images/Dior.png'
 import versace from './images/versace.png'
 import Gucci from './images/Gucci.png'

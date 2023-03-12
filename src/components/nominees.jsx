@@ -1,5 +1,5 @@
 import React from "react";
-import './nominees.css'
+import './nominees.scss'
 function Nominees(props) {
   return (
     <section id="">

@@ -1,20 +1,21 @@
-#sponsor-details{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 2rem;
-    padding: 1rem;
+#sponsor-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 2rem;
+  padding: 1rem;
 }
-.sponsor-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    color: #ffff;
+
+.sponsor-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 @media screen and (max-width: 769px) {
-  #sponsor-details{
+  #sponsor-details {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     place-items: center;
@@ -22,47 +23,46 @@
     /* width: auto;  */
     overflow: hidden;
     padding: 2rem;
-}
-.speaker-img{
-  width: 250px;
- display: flex;
- justify-content: center;
- align-items: center;
-}
-.sponsor-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  color: #ffff;
-  padding-bottom: 1.5rem;
-}
-
   }
-  @media screen and (max-width: 640px) {
-    #sponsor-details{
-      display: grid;
-      grid-template-columns: repeat(2, 2fr);
-      place-items: center;
-      gap: 1rem;
-      /* width: auto;  */
-      overflow: hidden;
-      padding: 2rem;
+  .speaker-img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .speaker-img{
-    width: 150px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  }
-  .sponsor-text{
+  .sponsor-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #ffff;
+    color: white;
+    padding-bottom: 1.5rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  #sponsor-details {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    place-items: center;
+    gap: 1rem;
+    /* width: auto;  */
+    overflow: hidden;
+    padding: 2rem;
+  }
+  .speaker-img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sponsor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
     font-size: 10px;
     padding-bottom: 1.5rem;
     /* padding-left: .5rem; */
   }
-}
+}/*# sourceMappingURL=sponsorsdetails.css.map */

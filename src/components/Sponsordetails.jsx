@@ -1,5 +1,5 @@
 import React from "react";
-import "./sponsorsdetails.css";
+import "./sponsorsdetails.scss";
 function Sponsorsdetails(props) {
   // console.log(props);
   return (
