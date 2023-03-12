@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Lora:wght@400;500;600;700&display=swap");
+
 #hero--section {
   background: rgba(0, 0, 0, 0.8);
   margin: 2rem 3rem 1rem 3rem;
@@ -6,14 +7,12 @@
   flex-direction: column;
   overflow: hidden;
 }
-
 #hero {
   display: flex;
   /* background: rgba(0, 0, 0, 0.8); */
   justify-content: space-between;
   padding: 2rem 0.5rem;
 }
-
 .hero-text {
   font-family: "Lora", "sans";
   font-weight: "200";
@@ -21,16 +20,13 @@
   color: #ffffff;
   width: 50%;
 }
-
 .yellow {
   color: #ffbc01;
 }
-
 #register-1 {
   display: flex;
   margin-top: 1rem;
 }
-
 .heroimg {
   display: flex;
   justify-content: center;
@@ -39,18 +35,15 @@
   justify-content: center;
   align-items: center;
 }
-
 .heroimage {
   width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #attendee2 {
   display: none;
 }
-
 .clock {
   /* background: rgb(50, 50, 129); */
   display: flex;
@@ -59,7 +52,6 @@
   align-items: center;
   /* padding-left: 1rem; */
 }
-
 .clock section {
   display: flex;
   flex-direction: column;
@@ -67,7 +59,6 @@
   align-items: center;
   padding: 0.5rem;
 }
-
 .clock section p {
   font-size: 2rem;
 }
@@ -75,24 +66,21 @@
 .clock section small {
   color: silver;
 }
-
 .days {
-  background: rgb(18, 39, 64);
+  background: rgba(18, 39, 64, 1);
   padding-right: 0.5rem;
 }
-
 .conference-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Lora", "sans";
+  font-family: 'Lora', 'sans';
   font-size: 35px;
   font-weight: 400;
   line-height: 52px;
   letter-spacing: 0em;
   text-align: center;
 }
-
 @media screen and (max-width: 769px) {
   #hero--section {
     margin: 2rem 0;
@@ -138,4 +126,4 @@
     line-height: 18px;
     color: #ffffff;
   }
-}/*# sourceMappingURL=herostyle.css.map */
+}

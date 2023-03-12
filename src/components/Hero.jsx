@@ -1,5 +1,5 @@
 import React from "react";
-import "./herostyle.css";
+import "./herostyle.scss";
 import heroimg from "./images/heroimage.png";
 // import hero from "./images/hero.png";
 export default function Hero({timerDays, timerHours, timerMinutes, timerSeconds}) {
