@@ -1,26 +1,27 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
 body {
   background: #1e1b1b;
   overflow-x: hidden;
 }
-body .App {
-  text-align: center;
-  overflow-x: hidden;
-}
-body .App-logo {
+.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 @media (prefers-reduced-motion: no-preference) {
-  body .App-logo {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 @media screen and (min-width: 1500px) {
-  body body {
+  body{
     background: #ffbc01;
     /* position: relative; */
   }
-  body main {
+  main {
     background: #1e1b1b;
     position: absolute;
     top: 630%;
@@ -28,18 +29,19 @@ body .App-logo {
     transform: translate(-50%, -50%);
     max-width: 80%;
   }
-  body #nomineesDetails {
+  #nomineesDetails {
     display: grid;
     gap: 1rem;
     flex-wrap: wrap;
     padding: 1rem;
   }
-  body .gallery-image {
-    /* border: 1px solid red; */
-    margin: 2rem 10rem;
-  }
+ .gallery-image{
+  /* border: 1px solid red; */
+  margin:2rem 10rem;
+ }
 }
-body .App-header {
+
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -49,9 +51,11 @@ body .App-header {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-body .App-link {
+
+.App-link {
   color: #61dafb;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -59,4 +63,4 @@ body .App-link {
   to {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=App.css.map */
+}

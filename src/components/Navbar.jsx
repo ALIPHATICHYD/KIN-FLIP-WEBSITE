@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./navbarStyles.scss";
+import "./navbarStyles.css";
 import kin from "./images/kinflip.png";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import {

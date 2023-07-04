@@ -7,39 +7,33 @@
   display: flex;
   justify-content: space-between;
 }
-
 .footer-details {
   padding: auto;
 }
-
 .footer-contact {
   /* border: 1px solid white; */
 }
-
 .newsletter {
   display: flex;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 1);
   border-radius: 4px;
   width: 80%;
   margin: 1rem 0;
 }
-
 .footer--input {
   border: none;
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 1);
   padding: 0.5rem;
   height: auto;
   border-radius: 2px;
 }
-
 .subscribe {
-  background: rgb(174, 134, 37);
+  background: rgba(174, 134, 37, 1);
   margin: 0.3rem;
   padding: 0.4rem;
-  color: rgb(255, 255, 255);
+  color: rgba(255, 255, 255, 1);
   border-radius: 2px;
 }
-
 .footer-head {
   font-family: "Nunito";
   font-size: 22px;
@@ -48,20 +42,17 @@
   color: #ffffff;
   margin-top: 1rem;
 }
-
 .footer--text {
   font-family: "Nunito";
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  color: rgb(174, 134, 37);
+  color: rgba(174, 134, 37, 1);
 }
-
 hr {
   margin-top: 1rem;
-  border: 1px solid rgb(255, 188, 1);
+  border: 1px solid rgba(255, 188, 1, 1);
 }
-
 .footer-copy {
   display: flex;
   justify-content: space-between;
@@ -74,12 +65,10 @@ hr {
   letter-spacing: 0px;
   text-align: center;
 }
-
 .social-icons {
   display: flex;
   /* padding-right: .5rem; */
 }
-
 .icons {
   padding-right: 0.5rem;
 }
@@ -90,6 +79,7 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .footer-copy {
     margin: 0.5rem 0rem;
     font-weight: 200;
@@ -141,4 +131,4 @@ hr {
     margin: auto;
     /* padding-right: .5rem; */
   }
-}/*# sourceMappingURL=footer.css.map */
+}

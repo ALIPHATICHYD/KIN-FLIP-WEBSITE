@@ -1,6 +1,6 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
-import "./Faq.scss";
+import "./Faq.css";
 function Faq() {
   return (
     <section className="Faq">
